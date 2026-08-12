@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JM TOURS | Cotización</title>
+
+    <link rel="stylesheet" href="cotizacion.css">
+
+    <link rel="stylesheet" href="fonts.css">
+
+</head>
+
+<body>
+
+<section class="cotizacion">
+
+    <div class="formulario">
+
+        <h1>Solicita tu Cotización</h1>
+
+        <p>
+            Completa el formulario y uno de nuestros asesores se pondrá en contacto contigo.
+        </p>
+
+        <form id="formCotizacion">
+
+            <input type="text" id="nombre" placeholder="Nombre completo">
+            <small id="errorNombre" class="error"></small>
+
+            <input type="email" id="correo" placeholder="Correo electrónico">
+            <small id="errorCorreo" class="error"></small>
+
+            <input type="tel" id="telefono" placeholder="Número de teléfono">
+            <small id="errorTelefono" class="error"></small>
+
+            <input
+    type="text"
+    id="destino"
+    placeholder="¿A dónde deseas viajar? (Ej: Cancún, París, Máncora...)">
+
+    <small id="errorDestino" class="error"></small>
+
+            <input type="date" id="fecha">
+            <small id="errorFecha" class="error"></small>
+
+
+            <input type="number" id="personas" placeholder="Cantidad de personas">
+            <small id="errorPersonas" class="error"></small>
+
+            <textarea id="mensaje" placeholder="Cuéntanos tu viaje ideal"></textarea>
+            <small id="errorMensaje" class="error"></small>
+
+            <button type="submit">
+                Solicitar Cotización
+            </button>
+
+        </form>
+
+    </div>
+
+        <div class="informacion">
+
+        <h2>¿Por qué elegir JM TOURS?</h2>
+
+        <div class="beneficio">
+
+            ✔ Atención personalizada
+
+        </div>
+
+        <div class="beneficio">
+
+            ✔ Respuesta en menos de 24 horas
+
+        </div>
+
+        <div class="beneficio">
+
+            ✔ Paquetes personalizados
+
+        </div>
+
+        <div class="beneficio">
+
+            ✔ Viajes seguros
+
+        </div>
+
+        <hr>
+
+        <h3>Contáctanos</h3>
+
+        <p>📞 +51 920 726 664</p>
+
+        <p>✉ Jmtourpe@gmail.com</p>
+
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="./js/cotizacion.js"></script>
+
+</body>
+
+</html>

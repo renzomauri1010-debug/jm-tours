@@ -1,0 +1,2296 @@
+body {
+        margin: 0;
+        margin-bottom: 0px;
+        color: black;
+        background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("https://userscontent2.emaze.com/images/987cbbb7-a1e0-46bb-854d-e1ef8b6a7ee2/48da52955fd4ffdfb96562eb7203dac9.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 8px 40px;
+
+    background: rgba(20,20,20,.75);
+    backdrop-filter: blur(12px);
+
+    box-sizing: border-box;
+
+    z-index: 9999;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo img{
+
+    width:70px;
+
+    border-radius:50%;
+
+}
+
+.logo span{
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+}
+
+.menu{
+
+    display:flex;
+
+    gap:35px;
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    position:relative;
+
+
+}
+
+.menu a:hover{
+
+    color:#00ffae;
+
+}
+
+.menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#00ffae;
+
+    transition:.3s;
+
+}
+
+.menu a:hover::after{
+
+    width:100%;
+
+}
+
+.hero-botones{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:45px;
+
+}
+
+.btn-principal{
+
+    background:#00c853;
+
+    color:white;
+
+    padding:16px 35px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.btn-principal:hover{
+
+    background:#00a844;
+
+    transform:translateY(-4px);
+
+}
+
+.btn-secundario{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:16px 35px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn-secundario:hover{
+
+    background:white;
+
+    color:black;
+
+    transform:translateY(-4px);
+
+}
+
+.contenedorsaso,
+.contenedorsin,
+.contenedorseso,
+.contener,
+.bloquis{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.bloquis{
+    height:80px;
+
+    background:transparent;
+
+    box-shadow:none;
+}
+.contenedorsaso{
+    min-height: 1700px;
+    margin-top: 227px;
+    padding: 40px;
+}
+
+.contenedorsin{
+    padding: 40px;
+    background-color:#f1f3f2;
+}
+
+.contenedorseso{
+    min-height: 600px;
+    padding: 40px;
+}
+
+.contener{
+    min-height: 600px;
+    padding: 40px;
+}
+
+
+.footer{
+
+    background: #6b0022;
+
+    width: 100%;
+    max-width: 1350px;
+
+    margin: 0 auto;
+
+    padding: 50px 40px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 50px;
+}
+.footer-col{
+
+    flex: 1;
+}
+
+.footer h2{
+
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer h3{
+
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.footer p{
+
+    line-height: 1.7;
+}
+
+.footer a{
+
+    display: block;
+
+    color: white;
+
+    text-decoration: none;
+
+    margin-bottom: 12px;
+}
+
+.footer a:hover{
+
+    color: #00ffae;
+}
+
+.copyright{
+
+    background: #3d0014;
+
+    width: 100%;
+    max-width: 1350px;
+
+    text-align: center;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+}
+
+.porque h5{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.razones{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+}
+
+.razon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.razon p{
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.experiencia,
+.confianza,
+.seguridad,
+.aventura{
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+}
+.contener h5 {
+
+    
+    text-align:center;
+    margin-top:90px;
+    font-size: 50px;
+
+}
+
+.regiones{
+    display:flex;
+    justify-content:center;
+    gap:250px;
+}
+
+.region{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.costa {
+
+    width: 80px;
+    height: 70px;
+    transform: translateY(20px);
+
+}
+
+.sierra {
+
+    width: 80px;
+    height: 70px;
+    transform: translateY(20px);
+
+}
+
+.selva {
+
+    width: 80px;
+    height: 70px;
+    transform: translateY(20px);
+
+}
+
+.recorrer {
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(280px, 280px));
+
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 100px;
+}
+
+.recorrer h4 {
+
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+/* tarjeta */
+.card {
+    position: relative;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* capa oscura */
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+/* TEXTO FIJO */
+.info {
+    font-family: "Renzo";
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+    right: 20px;
+
+    color: white;
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.info h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.info p {
+    min-height: 90px;
+    margin-bottom: 15px;
+}
+
+.info span {
+    display: block;
+    font-size: 20px;
+    color: #00ffae;
+    font-weight: bold;
+}
+
+
+/* Contenedor del idioma */
+.idioma-menu{
+    position: relative;
+}
+
+/* Submenú oculto */
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    min-width: 160px;
+
+    background: rgba(20,20,20,.95);
+
+    border-radius: 10px;
+
+    padding: 10px 0;
+
+    list-style: none;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.4);
+}
+
+/* Mostrar al pasar el mouse */
+.idioma-menu:hover .submenu{
+    display: block;
+}
+
+.submenu li{
+    margin: 0;
+}
+
+.submenu li a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu li a:hover{
+    background: #00ffae;
+    color: black;
+}
+
+.Martin {
+
+    position: relative;
+
+
+}
+.Martin h5 {
+
+    font-family: Renzo;
+    color: black;
+    margin-left: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    width: 700px;
+    
+}
+
+.Martin h6 {
+
+    width: 400px;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+
+}
+.Martin p {
+
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
+    margin-left: 37px;
+    margin-top: 90px;
+    font-family: Renzo;
+    
+
+}
+
+.Martin p::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp img{
+    width: 25px;
+}
+
+.whatsapp:hover{
+    transform: scale(1.1);
+}
+.contenedor{
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(280px, 280px));
+
+    justify-content: center;
+
+    gap: 30px;
+
+    max-width: 1300px;
+
+    margin: auto;
+    margin-top: -100px;
+}
+.servicio {
+    position: relative;
+
+    width: 280px;
+    height: 700px;
+
+    z-index: 20;
+
+    transition: 0.3s;
+
+    border-radius: 15px;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    
+}
+
+.servicio::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.servicio span {
+    position: relative;
+    z-index: 50;
+    color: white;
+    font-weight: bold;
+}
+
+.servicio:nth-child(1) {
+    background-image: url("https://static.wixstatic.com/media/51f90f_0f7d4171eb834293b19a34520184a95d~mv2.jpg/v1/fill/w_2500,h_1666,al_c/51f90f_0f7d4171eb834293b19a34520184a95d~mv2.jpg");
+}
+
+.servicio:nth-child(2) {
+    background-image: url("https://estevezavion.com/wp-content/uploads/2020/05/estevez-avion-servicios-01.jpg");
+}
+
+.servicio:nth-child(3) {
+    background-image: url("https://revistaemprende.cl/wp-content/uploads/2018/11/Tipo-de-clientes-Revista-Emprende.jpg");
+}
+
+.servicio:nth-child(4) {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/577/267/non_2x/customer-service-agent-with-headset-icon-logo-illustration-customer-support-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg");
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.ofrecemos h2{
+    margin-bottom: 30px;
+}
+
+/* GRID para 4 arriba y 4 abajo */
+.ofrecemos{
+    margin-top: 250px;
+    position: relative;
+    z-index: 50;
+    text-align: center;
+    padding: 0px;
+}
+
+/* Estilo tipo tarjeta */
+.item{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* Hover moderno */
+.item:hover{
+    transform: translateY(-10px);
+}
+.aparecer {
+    
+    animation: fadeIn 1.5s ease-in-out;
+    text-align: center;
+}
+
+.flotar {
+    animation: flotacion 3s ease-in-out infinite;
+}
+
+@keyframes flotacion {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+
+.seccion-aventura{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-end;
+
+    gap: 50px;
+
+    margin-top: 70px;
+}
+
+.flotar{
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 280px);
+
+    gap: 20px;
+}
+
+.flotar img{
+
+    width: 280px;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+/* HOVER */
+.flotar img:hover{
+
+    transform: translateY(-10px) scale(1.03);
+}
+
+.segunda{
+
+    margin-top: 120px;
+}
+
+
+.Martinie {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+.hero-texto{
+
+    margin-left: 80px;
+}
+h1 {
+    text-shadow: 0 0 15px #2f0df0, 0 0 30px #2f0df0;
+    color: black;
+    font-family: Renzo;
+    font-size: 50px;
+    font-weight: 100;
+    width: 500px;
+    font-weight: bold;
+    color: #ffffff;
+        text-shadow:
+        0 0 5px #ff00de,
+        0 0 10px #00ffff,
+        0 0 20px #ffffff,
+        0 0 30px #2600ff;
+    animation: brillar1 5s infinite alternate;
+    margin-bottom: 25px;
+}
+@keyframes brillar1 {
+    from {
+    text-shadow: 0 0 10px #ff00de, 0 0 20px #00ffff;
+    }
+    to {
+    text-shadow: 0 0 25px #1900ff, 0 0 45px #ffff00;
+    }
+}
+
+h2 {
+
+    
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0 0 6px rgba(55, 19, 255, 0.8);
+    animation: fadeIn 2s ease-in-out;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.Frase {
+
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0 0 6px rgba(55, 19, 255, 0.8);
+    animation: fadeIn 2s ease-in-out;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+
+}
+
+
+.explicacion {
+    background-color: transparent;
+    text-align: left;
+    width: 800px;
+    font-size: 26px;
+    color: white;
+    font-family: Renzo; 
+    color: white;
+    text-shadow: 0 0 10px #2f03f1;
+    animation: brillar 5s infinite alternate;
+    margin-bottom: 50px;
+    
+}
+
+.hero-box {
+    width: 100%;
+    max-width: 500px;
+
+    min-height: 340px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(135deg, #134e5e, #71b280);
+
+    color: white;
+
+    animation: aparecer 1s ease;
+
+    margin-top: 50px;
+}
+.hero-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mundo h4 {
+
+    font-size: 40px;
+    width: 100%;
+    max-width: 900px;
+    margin: 200px auto 0;
+    text-align: center;
+}
+
+.mundo p {
+    max-width:800px;
+    margin:20px auto;
+    font-size: 25px;
+    text-align: center;
+}
+.hero-box h4 {
+
+    font-size: 38px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+    
+
+}
+
+.hero-box p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    opacity: 0.9;
+    max-width: 700px;
+    margin-top:-30px;
+    color: #ddd;
+    text-align: center;
+}
+#paquete {
+
+    position: relative;
+
+    width: 500px;
+    height: 340px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(135deg, #134e5e, #71b280);
+
+    color: white;
+
+    animation: aparecer 1s ease;
+}
+#paquete:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+#paquetes h5 {
+
+    
+    font-size: 38px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+#paquetes p {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    opacity: 0.9;
+    max-width: 700px;
+    margin-top: -30px;
+    color: #ddd;
+    text-align: center;
+    
+
+}
+
+
+
+.titulo-tours {
+    position: relative;
+    z-index: 20;
+
+    margin-top: 90px;
+
+    font-size: 40px;
+    color: black;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+}
+
+.touristicos {
+
+    font-size: 25px;
+    color: black;
+    font-family: Renzo;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+
+
+.pregunta  {
+    
+    text-align: center;
+    font-size: 38px;
+    color: black;
+    position: relative;
+    top: -190px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* =========================================================
+   RESPONSIVE COMPLETO - JM TOURS
+   ========================================================= */
+
+
+/* =========================================================
+   TABLETS GRANDES / IPAD
+   769px - 1100px
+   ========================================================= */
+
+@media (min-width: 769px) and (max-width: 1100px){
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar{
+        padding: 8px 20px;
+    }
+
+    .logo img{
+        width: 55px;
+    }
+
+    .logo span{
+        font-size: 22px;
+    }
+
+    .menu{
+        gap: 15px;
+    }
+
+    .menu a{
+        font-size: 15px;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .hero-texto{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    h1{
+        width: auto;
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 23px;
+    }
+
+    .explicacion{
+        width: 90%;
+        max-width: 700px;
+        font-size: 22px;
+    }
+
+    .Frase{
+        font-size: 22px;
+    }
+
+
+    /* ---------- SECCIONES ---------- */
+
+    .contenedorsaso,
+    .contenedorsin,
+    .contenedorseso,
+    .contener{
+        width: 100%;
+        max-width: 100%;
+        padding: 35px;
+        box-sizing: border-box;
+    }
+
+
+    /* ---------- AVENTURA ---------- */
+
+    .seccion-aventura{
+        gap: 25px;
+    }
+
+    .hero-box{
+        width: 45%;
+        max-width: 450px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .hero-box h4{
+        font-size: 30px;
+    }
+
+    .hero-box p{
+        font-size: 18px;
+    }
+
+    .flotar{
+        grid-template-columns: repeat(2, 220px);
+        gap: 15px;
+    }
+
+    .flotar img{
+        width: 220px;
+        height: 160px;
+    }
+
+
+    /* ---------- MUNDO ---------- */
+
+    .mundo h4{
+        font-size: 35px;
+        max-width: 800px;
+    }
+
+    .mundo p{
+        font-size: 21px;
+    }
+
+
+    /* ---------- SERVICIOS ---------- */
+
+    .contenedor{
+        grid-template-columns: repeat(2, 280px);
+        gap: 25px;
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .servicio{
+        width: 280px;
+        height: 500px;
+    }
+
+    .ofrecemos{
+        margin-top: 180px;
+    }
+
+    .pregunta{
+        position: static;
+        margin-top: 40px;
+    }
+
+
+    /* ---------- BENEFICIOS ---------- */
+
+    .razones{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .experiencia,
+    .confianza,
+    .seguridad,
+    .aventura{
+        width: 240px;
+        height: 260px;
+        object-fit: cover;
+    }
+
+
+    /* ---------- REGIONES ---------- */
+
+    .regiones{
+        gap: 80px;
+    }
+
+
+    /* ---------- DESTINOS ---------- */
+
+    .recorrer{
+        grid-template-columns: repeat(2, 280px);
+        gap: 25px;
+    }
+
+    .card{
+        width: 280px;
+        height: 450px;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer{
+        gap: 25px;
+        padding: 40px 25px;
+    }
+
+    .footer h2{
+        font-size: 32px;
+    }
+
+    .footer h3{
+        font-size: 20px;
+    }
+
+}
+
+
+/* =========================================================
+   CELULARES
+   HASTA 768px
+   ========================================================= */
+
+@media (max-width: 768px){
+
+    /* =====================================================
+       CONFIGURACIÓN GENERAL
+       ===================================================== */
+
+    *{
+        box-sizing: border-box;
+    }
+
+    html,
+    body{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /* =====================================================
+       NAVBAR
+       ===================================================== */
+
+    .navbar{
+        position: fixed;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+
+        padding: 8px 15px;
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+    .logo{
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 45px;
+    }
+
+    .logo span{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .menu{
+        width: 100%;
+
+        display: flex;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 8px 15px;
+    }
+
+    .menu a{
+        font-size: 13px;
+    }
+
+    .idioma-menu{
+        position: relative;
+    }
+
+
+    /* =====================================================
+       SUBMENU IDIOMA
+       ===================================================== */
+
+    .submenu{
+        right: 0;
+        min-width: 140px;
+    }
+
+
+    /* =====================================================
+       ESPACIO DEL NAVBAR
+       ===================================================== */
+
+    .bloquis{
+        height: 115px;
+    }
+
+
+    /* =====================================================
+       HERO
+       ===================================================== */
+
+    .hero-texto{
+
+        width: 100%;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        padding: 20px;
+
+        text-align: center;
+    }
+
+    h1{
+
+        width: 100%;
+
+        font-size: 36px;
+
+        line-height: 1.1;
+
+        margin-top: 20px;
+
+        margin-bottom: 15px;
+    }
+
+    h2{
+
+        width: 100%;
+
+        font-size: 20px;
+
+        margin-top: 10px;
+
+        margin-bottom: 25px;
+    }
+
+    .explicacion{
+
+        width: 100%;
+
+        max-width: 100%;
+
+        font-size: 17px;
+
+        line-height: 1.6;
+
+        text-align: center;
+
+        margin: 0 auto 25px;
+    }
+
+    .Frase{
+
+        width: 100%;
+
+        font-size: 18px;
+
+        line-height: 1.5;
+
+        margin: 20px auto 30px;
+    }
+
+
+    /* =====================================================
+       BOTONES HERO
+       ===================================================== */
+
+    .hero-botones{
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 15px;
+
+        margin-top: 25px;
+    }
+
+    .btn-principal,
+    .btn-secundario{
+
+        width: 90%;
+
+        max-width: 320px;
+
+        text-align: center;
+
+        padding: 14px 20px;
+
+        font-size: 16px;
+    }
+
+
+    /* =====================================================
+       CONTENEDORES
+       ===================================================== */
+
+    .contenedorsaso,
+    .contenedorsin,
+    .contenedorseso,
+    .contener{
+
+        width: 100%;
+
+        max-width: 100%;
+
+        margin-left: 0;
+
+        margin-right: 0;
+
+        padding: 25px 15px;
+
+        box-sizing: border-box;
+    }
+
+    .contenedorsaso{
+
+        min-height: auto;
+
+        margin-top: 80px;
+    }
+
+
+    /* =====================================================
+       TITULO TOURS
+       ===================================================== */
+
+    .titulo-tours{
+
+        width: 100%;
+
+        font-size: 30px;
+
+        line-height: 1.2;
+
+        margin-top: 50px;
+
+        text-align: center;
+    }
+
+    .touristicos{
+
+        width: 100%;
+
+        max-width: 600px;
+
+        font-size: 18px;
+
+        line-height: 1.5;
+
+        padding: 0 10px;
+
+        margin: 25px auto;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       SECCIÓN AVENTURA
+       ===================================================== */
+
+    .seccion-aventura{
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 35px;
+
+        margin-top: 50px;
+    }
+
+
+    /* =====================================================
+       HERO BOX
+       ===================================================== */
+
+    .hero-box{
+
+        width: 100%;
+
+        max-width: 500px;
+
+        min-height: auto;
+
+        height: auto;
+
+        padding: 25px 20px;
+
+        margin: 0 auto;
+
+        box-sizing: border-box;
+    }
+
+    .hero-box h4{
+
+        font-size: 28px;
+
+        line-height: 1.2;
+
+        margin: 10px 0 25px;
+
+        text-align: center;
+    }
+
+    .hero-box p{
+
+        width: 100%;
+
+        max-width: 100%;
+
+        font-size: 17px;
+
+        line-height: 1.6;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       IMÁGENES FLOTAR
+       ===================================================== */
+
+    .flotar{
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 12px;
+
+        animation: flotacion 3s ease-in-out infinite;
+    }
+
+    .flotar img{
+
+        width: 100%;
+
+        height: 150px;
+
+        object-fit: cover;
+
+        border-radius: 12px;
+    }
+
+
+    /* =====================================================
+       SEGUNDA SECCIÓN
+       ===================================================== */
+
+    .segunda{
+
+        margin-top: 80px;
+    }
+
+
+    /* =====================================================
+       MUNDO
+       ===================================================== */
+
+    .mundo{
+
+        width: 100%;
+
+        padding: 20px 5px;
+
+        text-align: center;
+    }
+
+    .mundo h4{
+
+        width: 100%;
+
+        max-width: 600px;
+
+        font-size: 29px;
+
+        line-height: 1.3;
+
+        margin: 80px auto 0;
+    }
+
+    .mundo p{
+
+        width: 100%;
+
+        max-width: 600px;
+
+        font-size: 18px;
+
+        line-height: 1.5;
+
+        margin: 20px auto;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       PAQUETE
+       ===================================================== */
+
+    #paquete,
+    #paquetes{
+
+        width: 100%;
+
+        max-width: 500px;
+
+        height: auto;
+
+        min-height: auto;
+
+        padding: 25px 20px;
+
+        margin: 0 auto;
+
+        box-sizing: border-box;
+    }
+
+    #paquetes h5{
+
+        font-size: 28px;
+
+        line-height: 1.2;
+
+        margin: 10px 0 25px;
+
+        text-align: center;
+    }
+
+    #paquetes p{
+
+        font-size: 17px;
+
+        line-height: 1.6;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       SERVICIOS
+       ===================================================== */
+
+    .contenedorsin{
+
+        padding-top: 40px;
+
+        padding-bottom: 50px;
+    }
+
+    .ofrecemos{
+
+        width: 100%;
+
+        margin-top: 50px;
+
+        padding: 0;
+
+        text-align: center;
+    }
+
+    .pregunta{
+
+        position: static;
+
+        width: 100%;
+
+        font-size: 28px;
+
+        line-height: 1.3;
+
+        margin: 30px auto 50px;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       CONTENEDOR DE SERVICIOS
+       ===================================================== */
+
+    .contenedor{
+
+        width: 100%;
+
+        max-width: 700px;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 15px;
+
+        margin: 0 auto;
+    }
+
+
+    /* =====================================================
+       TARJETAS DE SERVICIOS
+       ===================================================== */
+
+    .servicio{
+
+        width: 100%;
+
+        height: 330px;
+
+        min-width: 0;
+
+        border-radius: 15px;
+
+        overflow: hidden;
+    }
+
+    .servicio span{
+
+        position: relative;
+
+        z-index: 50;
+
+        padding: 10px;
+
+        font-size: 18px;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       BENEFICIOS
+       ===================================================== */
+
+    .contenedorseso{
+
+        min-height: auto;
+
+        padding-top: 50px;
+
+        padding-bottom: 60px;
+    }
+
+    .porque h5{
+
+        width: 100%;
+
+        font-size: 30px;
+
+        line-height: 1.3;
+
+        margin: 20px auto 50px;
+
+        text-align: center;
+    }
+
+    .razones{
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 35px 15px;
+
+        text-align: center;
+    }
+
+    .razon{
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .experiencia,
+    .confianza,
+    .seguridad,
+    .aventura{
+
+        width: 100%;
+
+        max-width: 150px;
+
+        height: 160px;
+
+        object-fit: cover;
+
+        border-radius: 15px;
+    }
+
+    .razon p{
+
+        font-size: 19px;
+
+        margin-top: 12px;
+
+        margin-bottom: 0;
+    }
+
+
+    /* =====================================================
+       DESTINOS
+       ===================================================== */
+
+    .contener{
+
+        min-height: auto;
+
+        padding-top: 50px;
+
+        padding-bottom: 60px;
+    }
+
+    .contener h5{
+
+        width: 100%;
+
+        font-size: 32px;
+
+        line-height: 1.2;
+
+        margin: 40px auto 50px;
+
+        text-align: center;
+    }
+
+
+    /* =====================================================
+       REGIONES
+       ===================================================== */
+
+    .regiones{
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 25px;
+
+        margin: 0 auto;
+    }
+
+    .region{
+
+        width: 100%;
+
+        max-width: 250px;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        gap: 15px;
+
+        font-size: 20px;
+    }
+
+    .costa,
+    .sierra,
+    .selva{
+
+        width: 70px;
+
+        height: 60px;
+
+        object-fit: contain;
+
+        transform: none;
+    }
+
+
+    /* =====================================================
+       TARJETAS DE DESTINOS
+       ===================================================== */
+
+    .recorrer{
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+        margin-top: 60px;
+    }
+
+    .card{
+
+        width: 100%;
+
+        max-width: 400px;
+
+        height: 420px;
+
+        margin: 0 auto;
+
+        border-radius: 18px;
+    }
+
+    .card img{
+
+        width: 100%;
+
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .info{
+
+        left: 15px;
+
+        right: 15px;
+
+        bottom: 70px;
+
+        font-size: 16px;
+    }
+
+    .info h4{
+
+        font-size: 22px;
+
+        margin-bottom: 10px;
+    }
+
+    .info p{
+
+        min-height: auto;
+
+        font-size: 16px;
+
+        line-height: 1.5;
+    }
+
+
+    /* =====================================================
+       WHATSAPP
+       ===================================================== */
+
+    .whatsapp{
+
+        right: 12px;
+
+        bottom: 12px;
+
+        padding: 9px 13px;
+
+        gap: 7px;
+
+        font-size: 14px;
+    }
+
+    .whatsapp img{
+
+        width: 22px;
+    }
+
+
+    /* =====================================================
+       FOOTER
+       ===================================================== */
+
+    .footer{
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+        gap: 30px;
+
+        padding: 40px 20px;
+    }
+
+    .footer-col{
+
+        width: 100%;
+
+        max-width: 450px;
+    }
+
+    .footer h2{
+
+        font-size: 30px;
+
+        margin-bottom: 15px;
+    }
+
+    .footer h3{
+
+        font-size: 22px;
+
+        margin-bottom: 15px;
+    }
+
+    .footer p{
+
+        font-size: 16px;
+
+        line-height: 1.6;
+    }
+
+    .footer a{
+
+        margin-bottom: 10px;
+    }
+
+    .copyright{
+
+        width: 100%;
+
+        font-size: 13px;
+
+        padding: 15px 10px;
+    }
+
+}
+
+
+/* =========================================================
+    CELULARES PEQUEÑOS
+    HASTA 480px
+   ========================================================= */
+
+@media (max-width: 480px){
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar{
+        padding: 6px 10px;
+    }
+
+    .logo img{
+        width: 40px;
+    }
+
+    .logo span{
+        font-size: 18px;
+    }
+
+    .menu{
+        gap: 6px 10px;
+    }
+
+    .menu a{
+        font-size: 11px;
+    }
+
+    .bloquis{
+        height: 105px;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .explicacion{
+        font-size: 16px;
+    }
+
+    .Frase{
+        font-size: 17px;
+    }
+
+    .btn-principal,
+    .btn-secundario{
+        width: 100%;
+
+        max-width: 300px;
+
+        padding: 13px 15px;
+
+        font-size: 15px;
+    }
+
+
+    /* ---------- IMÁGENES ---------- */
+
+    .flotar{
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 8px;
+    }
+
+    .flotar img{
+        height: 120px;
+    }
+
+
+    /* ---------- HERO BOX ---------- */
+
+    .hero-box{
+        padding: 20px 15px;
+    }
+
+    .hero-box h4{
+        font-size: 24px;
+    }
+
+    .hero-box p{
+        font-size: 16px;
+    }
+
+
+    /* ---------- SERVICIOS ---------- */
+
+    .contenedor{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 10px;
+    }
+
+    .servicio{
+        height: 280px;
+    }
+
+    .servicio span{
+        font-size: 16px;
+    }
+
+
+    /* ---------- BENEFICIOS ---------- */
+
+    .porque h5{
+        font-size: 26px;
+    }
+
+    .razones{
+        gap: 30px 10px;
+    }
+
+    .experiencia,
+    .confianza,
+    .seguridad,
+    .aventura{
+        max-width: 130px;
+
+        height: 140px;
+    }
+
+    .razon p{
+        font-size: 17px;
+    }
+
+
+    /* ---------- DESTINOS ---------- */
+
+    .contener h5{
+        font-size: 28px;
+    }
+
+    .card{
+        height: 380px;
+    }
+
+    .info{
+        bottom: 50px;
+    }
+
+    .info h4{
+        font-size: 20px;
+    }
+
+    .info p{
+        font-size: 15px;
+    }
+
+
+    /* ---------- WHATSAPP ---------- */
+
+    .whatsapp span{
+        display: none;
+    }
+
+    .whatsapp{
+        width: 48px;
+        height: 48px;
+
+        padding: 0;
+
+        justify-content: center;
+
+        border-radius: 50%;
+    }
+
+    .whatsapp img{
+        width: 24px;
+    }
+
+}
+
+
+/* =========================================================
+    CELULARES MUY PEQUEÑOS
+    HASTA 360px
+   ========================================================= */
+
+@media (max-width: 360px){
+
+    .logo span{
+        font-size: 16px;
+    }
+
+    .menu{
+        gap: 5px 7px;
+    }
+
+    .menu a{
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 27px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    .explicacion{
+        font-size: 15px;
+    }
+
+    .Frase{
+        font-size: 16px;
+    }
+
+    .flotar img{
+        height: 100px;
+    }
+
+    .servicio{
+        height: 240px;
+    }
+
+    .servicio span{
+        font-size: 14px;
+    }
+
+    .experiencia,
+    .confianza,
+    .seguridad,
+    .aventura{
+        max-width: 110px;
+        height: 120px;
+    }
+
+    .razon p{
+        font-size: 15px;
+    }
+
+}
